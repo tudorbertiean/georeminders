@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashicon" translatesAutoresizingMaskIntoConstraints="NO" id="Ld2-9a-h5y">
+                                <rect key="frame" x="112.5" y="258" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="1Oa-pq-pIU"/>
+                                    <constraint firstAttribute="width" constant="150" id="PLz-7Z-3hb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Geo Reminder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xyq-DD-Y9v">
+                                <rect key="frame" x="78" y="186" width="220" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ld2-9a-h5y" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="AYJ-fN-nEZ"/>
+                            <constraint firstItem="Xyq-DD-Y9v" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="K1B-Ok-TjN"/>
+                            <constraint firstItem="Ld2-9a-h5y" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dei-f0-TtW"/>
+                            <constraint firstItem="Ld2-9a-h5y" firstAttribute="top" secondItem="Xyq-DD-Y9v" secondAttribute="bottom" constant="19" id="lKK-dS-pIi"/>
+                            <constraint firstItem="Xyq-DD-Y9v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="166" id="zVr-ro-vGD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splashicon" width="512" height="512"/>
+    </resources>
+</document>

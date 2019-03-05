@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2643FD3207975A2005B3E98 /* Walk-to-campus.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D2643FD2207975A2005B3E98 /* Walk-to-campus.gpx */; };
+		D298D0152076A4B500848294 /* laurier.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D298D0142076A4B500848294 /* laurier.gpx */; };
+		D298D0182076B5FF00848294 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D298D0172076B5FF00848294 /* Helper.swift */; };
+		D29D770C207A9340005CDC6E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29D770B207A933F005CDC6E /* Default-568h@2x.png */; };
+		D2BFA1B22062B7130090363C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFA1B12062B7130090363C /* AppDelegate.swift */; };
+		D2BFA1B42062B7130090363C /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFA1B32062B7130090363C /* NotificationsViewController.swift */; };
+		D2BFA1B72062B7130090363C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BFA1B52062B7130090363C /* Main.storyboard */; };
+		D2BFA1B92062B7130090363C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2BFA1B82062B7130090363C /* Assets.xcassets */; };
+		D2BFA1BC2062B7130090363C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BFA1BA2062B7130090363C /* LaunchScreen.storyboard */; };
+		D2BFA1C82062BF870090363C /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFA1C72062BF870090363C /* Notification.swift */; };
+		D2BFA1CA2062C1890090363C /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFA1C92062C1890090363C /* DataStore.swift */; };
+		D2BFA1CE2062D2AB0090363C /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFA1CD2062D2AB0090363C /* AddViewController.swift */; };
+		D2BFA1D02062D7390090363C /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFA1CF2062D7390090363C /* Deck.swift */; };
+		D2BFA1D32062D81C0090363C /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFA1D22062D81C0090363C /* NotificationTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2643FD2207975A2005B3E98 /* Walk-to-campus.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Walk-to-campus.gpx"; sourceTree = SOURCE_ROOT; };
+		D298D0142076A4B500848294 /* laurier.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = laurier.gpx; sourceTree = SOURCE_ROOT; };
+		D298D0172076B5FF00848294 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		D29D770B207A933F005CDC6E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D2BFA1AE2062B7130090363C /* georeminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = georeminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BFA1B12062B7130090363C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2BFA1B32062B7130090363C /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		D2BFA1B62062B7130090363C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2BFA1B82062B7130090363C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2BFA1BB2062B7130090363C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2BFA1BD2062B7130090363C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2BFA1C72062BF870090363C /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		D2BFA1C92062C1890090363C /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		D2BFA1CD2062D2AB0090363C /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		D2BFA1CF2062D7390090363C /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		D2BFA1D22062D81C0090363C /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2BFA1AB2062B7130090363C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D298D0162076B5ED00848294 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				D298D0172076B5FF00848294 /* Helper.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		D2BFA1A52062B7130090363C = {
+			isa = PBXGroup;
+			children = (
+				D29D770B207A933F005CDC6E /* Default-568h@2x.png */,
+				D2BFA1B02062B7130090363C /* georeminders */,
+				D2BFA1AF2062B7130090363C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2BFA1AF2062B7130090363C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFA1AE2062B7130090363C /* georeminders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2BFA1B02062B7130090363C /* georeminders */ = {
+			isa = PBXGroup;
+			children = (
+				D2643FD2207975A2005B3E98 /* Walk-to-campus.gpx */,
+				D298D0142076A4B500848294 /* laurier.gpx */,
+				D2BFA1D42062E3A50090363C /* Storyboards */,
+				D2BFA1D12062D80A0090363C /* Table */,
+				D2BFA1C62062BF7B0090363C /* Objects */,
+				D298D0162076B5ED00848294 /* Misc */,
+				D2BFA1C52062B7850090363C /* ViewControllers */,
+				D2BFA1B12062B7130090363C /* AppDelegate.swift */,
+				D2BFA1B82062B7130090363C /* Assets.xcassets */,
+				D2BFA1BD2062B7130090363C /* Info.plist */,
+			);
+			path = georeminders;
+			sourceTree = "<group>";
+		};
+		D2BFA1C52062B7850090363C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFA1B32062B7130090363C /* NotificationsViewController.swift */,
+				D2BFA1CD2062D2AB0090363C /* AddViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D2BFA1C62062BF7B0090363C /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFA1C72062BF870090363C /* Notification.swift */,
+				D2BFA1C92062C1890090363C /* DataStore.swift */,
+				D2BFA1CF2062D7390090363C /* Deck.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		D2BFA1D12062D80A0090363C /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFA1D22062D81C0090363C /* NotificationTableViewCell.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		D2BFA1D42062E3A50090363C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFA1B52062B7130090363C /* Main.storyboard */,
+				D2BFA1BA2062B7130090363C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2BFA1AD2062B7130090363C /* georeminders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2BFA1C02062B7130090363C /* Build configuration list for PBXNativeTarget "georeminders" */;
+			buildPhases = (
+				D2BFA1AA2062B7130090363C /* Sources */,
+				D2BFA1AB2062B7130090363C /* Frameworks */,
+				D2BFA1AC2062B7130090363C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = georeminders;
+			productName = bert8270_final;
+			productReference = D2BFA1AE2062B7130090363C /* georeminders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2BFA1A62062B7130090363C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wlu;
+				TargetAttributes = {
+					D2BFA1AD2062B7130090363C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D2BFA1A92062B7130090363C /* Build configuration list for PBXProject "georeminders" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2BFA1A52062B7130090363C;
+			productRefGroup = D2BFA1AF2062B7130090363C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2BFA1AD2062B7130090363C /* georeminders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2BFA1AC2062B7130090363C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D298D0152076A4B500848294 /* laurier.gpx in Resources */,
+				D2643FD3207975A2005B3E98 /* Walk-to-campus.gpx in Resources */,
+				D2BFA1BC2062B7130090363C /* LaunchScreen.storyboard in Resources */,
+				D2BFA1B92062B7130090363C /* Assets.xcassets in Resources */,
+				D2BFA1B72062B7130090363C /* Main.storyboard in Resources */,
+				D29D770C207A9340005CDC6E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2BFA1AA2062B7130090363C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BFA1D32062D81C0090363C /* NotificationTableViewCell.swift in Sources */,
+				D2BFA1D02062D7390090363C /* Deck.swift in Sources */,
+				D2BFA1CE2062D2AB0090363C /* AddViewController.swift in Sources */,
+				D2BFA1C82062BF870090363C /* Notification.swift in Sources */,
+				D2BFA1B42062B7130090363C /* NotificationsViewController.swift in Sources */,
+				D2BFA1CA2062C1890090363C /* DataStore.swift in Sources */,
+				D2BFA1B22062B7130090363C /* AppDelegate.swift in Sources */,
+				D298D0182076B5FF00848294 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2BFA1B52062B7130090363C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2BFA1B62062B7130090363C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2BFA1BA2062B7130090363C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2BFA1BB2062B7130090363C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2BFA1BE2062B7130090363C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2BFA1BF2062B7130090363C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2BFA1C12062B7130090363C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tudor Bertiean (7A29T97PBY)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/georeminders/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aliasapps.georeminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GeoReminderDistributionProfile;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2BFA1C22062B7130090363C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Alias Apps (F2BL58GF34)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/georeminders/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aliasapps.georeminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GeoReminderDistributionProfile;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2BFA1A92062B7130090363C /* Build configuration list for PBXProject "georeminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BFA1BE2062B7130090363C /* Debug */,
+				D2BFA1BF2062B7130090363C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2BFA1C02062B7130090363C /* Build configuration list for PBXNativeTarget "georeminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BFA1C12062B7130090363C /* Debug */,
+				D2BFA1C22062B7130090363C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2BFA1A62062B7130090363C /* Project object */;
+}
